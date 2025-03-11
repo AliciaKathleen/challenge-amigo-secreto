@@ -15,8 +15,18 @@ function adicionarAmigo() {
         alert('Por favor, insira um nome válido (mínimo 3 letras, apenas letras e espaços).');
         return;
     }
-    
+
     amigos.push(nome);
     inputAmigo.value = '';
     atualizarListaAmigos();
+}
+
+function atualizarListaAmigos() {
+    const lista = document.getElementById('listaAmigos');
+    lista.innerHTML = '';
+    amigos.forEach(amigo => {
+        const li = document.createElement('li');
+        li.textContent = amigo;
+        lista.appendChild(li);
+    });
 }
