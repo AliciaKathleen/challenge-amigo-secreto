@@ -55,3 +55,7 @@ function sortearAmigo() {
     li.style.marginTop = '20px';
     li.textContent = `O amigo secreto sorteado é: ${amigoSorteado}`;
     resultado.appendChild(li);
+
+    amigos = [];
+    atualizarListaAmigos();
+}
