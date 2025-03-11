@@ -38,3 +38,12 @@ function sortearAmigo() {
 
     const resultado = document.getElementById('resultado');
     resultado.innerHTML = '';
+    const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+    const amigoSorteado = amigos[indiceAleatorio];
+    const li = document.createElement('li');
+    li.style.color = '#2ecc71'; // Cor verde
+    li.style.fontSize = '1.2rem';
+    li.style.textAlign = 'center';
+    li.style.marginTop = '20px';
+    li.textContent = `O amigo secreto sorteado é: ${amigoSorteado}`;
+    resultado.appendChild(li);
