@@ -16,15 +16,15 @@ A aplicação permite que os usuários insiram nomes de amigos em uma lista e re
 - CSS
 - JavaScript
 
-## 📥 Como Baixar e Executar o Projeto
+## 📌 Como Funciona o Projeto
+**1️⃣ Página Inicial**
+- Essa é a página inicial do projeto:
+![Tela Inicial](https://github.com/AliciaKathleen/challenge-amigo-secreto/blob/main/pagina-inicial.png)
 
-- Clone este repositório:
-- git clone https://github.com/AliciaKathleen/challenge-amigo-secreto.git
+**1️⃣ Adicionar Nomes**
+- Nessa etapa, você pode adicionar os nomes dos participantes na caixa de texto. Basta digitar o nome e clicar no botão **"Adicionar"** para inserir o participante na lista.
 
-- Acesse o diretório do projeto:
-- cd challenge-amigo-secreto
 
-- Abra o arquivo index.html em um navegador.
 
-## 📌 Autor
--Desenvolvido por Alicia Kathleen.
+
+
