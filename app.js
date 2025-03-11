@@ -20,13 +20,5 @@ function adicionarAmigo() {
     inputAmigo.value = '';
     atualizarListaAmigos();
 }
-
 function atualizarListaAmigos() {
     const lista = document.getElementById('listaAmigos');
-    lista.innerHTML = '';
-    amigos.forEach(amigo => {
-        const li = document.createElement('li');
-        li.textContent = amigo;
-        lista.appendChild(li);
-    });
-}
