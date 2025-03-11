@@ -29,3 +29,12 @@ function atualizarListaAmigos() {
         lista.appendChild(li);
     });
 }
+
+function sortearAmigo() {
+    if (amigos.length < 1) {
+        alert('Adicione pelo menos 1 amigo para realizar o sorteio!');
+        return;
+    }
+
+    const resultado = document.getElementById('resultado');
+    resultado.innerHTML = '';
